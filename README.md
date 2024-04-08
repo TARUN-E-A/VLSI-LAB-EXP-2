@@ -85,7 +85,9 @@ input a,b,c,d,s0,s1;
 output y;
 assign y=s1 ?(s0?d:c):(s0?b:a);
 endmodule
-DEMULTIPLEXER:
+```
+# DEMULTIPLEXER:
+```
 module demux(in,s0,s1,s2,d0,d1,d2,d3,d4,d5,d6,d7);
 input in,s0,s1,s2;
 output d0,d1,d2,d3,d4,d5,d6,d7;
