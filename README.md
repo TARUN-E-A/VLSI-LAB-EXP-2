@@ -45,7 +45,7 @@ endmodule
 ### LOGIC DIAGRAM:
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/45a5e6cf-bbe0-4fd5-ac84-e5ad4477483b)
 
-### Verilog Code:
+### VERILOG CODE:
 ```
 module decoder_8(a,b,c,y);
 input a,b,c; 
